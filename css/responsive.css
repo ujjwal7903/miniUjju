@@ -251,13 +251,9 @@
     height: 80px;
     font-size: 22px;
   }
-  .project-grid, .smaller-work {
+  .project-grid {
     grid-template-columns: 1fr;
     gap: 17px;
-  }
-  .smaller-work {
-    gap: 25px;
-    padding-top: 27px;
   }
   .project-grid .project-card {
     padding: 26px 24px;
@@ -268,9 +264,6 @@
   .card-doodle {
     width: 42px;
     height: 42px;
-  }
-  .smaller-work p {
-    font-size: 14px;
   }
   .community-grid {
     grid-template-columns: 1fr;

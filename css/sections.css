@@ -579,8 +579,12 @@
   padding: 30px 34px;
 }
 
-.cloud-project {
+.cloud-project, .recording-project {
   background: #f1f0e9;
+}
+
+.key-project {
+  background: var(--sage);
 }
 
 .emoji-project {
@@ -607,6 +611,11 @@
   transform: rotate(-7deg);
 }
 
+.copilot-icon {
+  object-fit: contain;
+  transform: none;
+}
+
 .emoji-project .card-doodle {
   stroke: #91735a;
 }
@@ -626,41 +635,6 @@
 .project-stat span {
   font-size: 12px;
   color: #606655;
-}
-
-.smaller-work {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 45px;
-  padding-top: 29px;
-}
-
-.smaller-work article {
-  display: flex;
-  gap: 17px;
-}
-
-.mini-icon {
-  flex-shrink: 0;
-  border: 1px solid #d9dece;
-  width: 39px;
-  height: 39px;
-  display: grid;
-  place-items: center;
-  border-radius: 9px;
-  color: #74835f;
-  font-size: 21px;
-}
-
-.smaller-work h3 {
-  font-size: 16px;
-  margin: 2px 0 9px;
-}
-
-.smaller-work p {
-  font-size: 14px;
-  color: var(--muted);
-  line-height: 1.8;
 }
 
 .section-note {
