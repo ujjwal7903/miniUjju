@@ -1,0 +1,21 @@
+india.svg
+Author: Thryduulf, based on India outline.png by Theo10011 and 10-India_k.svg by Amog.
+Source: https://commons.wikimedia.org/wiki/File:India_outline.svg
+Original: https://upload.wikimedia.org/wikipedia/commons/b/b4/India_outline.svg
+License: Creative Commons Attribution-ShareAlike 3.0 Unported.
+License terms: https://creativecommons.org/licenses/by-sa/3.0/
+Changes: Fill and stroke colors adapted; title and explicit aspect-ratio preservation added.
+The adapted India SVG remains under CC BY-SA 3.0.
+
+japan.svg
+Copyright (c) 2024 Pareto Software, LLC DBA Simplemaps.com.
+Source: https://simplemaps.com/svg/country/jp
+Original: https://simplemaps.com/static/svg/country/jp/admin1/jp.svg
+License: Simplemaps SVG Map Library License.
+License terms: https://simplemaps.com/resources/svg-license
+Permitted for personal and commercial websites and software. Do not redistribute
+the maps as an unmodified map collection. Provided without guarantees or liability.
+Changes: Fill and stroke colors adapted; reference points hidden; title added;
+viewBox capitalization normalized and aspect-ratio preservation made explicit.
+
+These asset licenses do not change the license of the surrounding portfolio code.

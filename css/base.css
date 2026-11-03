@@ -1,0 +1,116 @@
+@charset "UTF-8";
+:root {
+  color-scheme: light;
+  --paper: #f8f7f2;
+  --ink: #29372f;
+  --muted: #62685e;
+  --line: #dedfd4;
+  --lime: #d9e58b;
+  --sage: #e9eddf;
+  --peach: #f2dfd2;
+  --white: #fffef9;
+  --radius: 18px;
+  --font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, select {
+  font: inherit;
+}
+
+button, a, summary, select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, select {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a, button, summary {
+  touch-action: manipulation;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.15;
+}
+
+h1, h2 {
+  letter-spacing: -.055em;
+  font-weight: 650;
+}
+
+h2 {
+  font-size: clamp(36px, 4.3vw, 53px);
+}
+
+h2 em {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+h3 {
+  letter-spacing: -.035em;
+  font-weight: 600;
+}
+
+p + p {
+  margin-top: 14px;
+}
+
+strong {
+  font-weight: 650;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+:focus-visible {
+  outline: 3px solid #576d35;
+  outline-offset: 5px;
+}
+
+::selection {
+  color: var(--ink);
+  background: var(--lime);
+}

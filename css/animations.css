@@ -1,0 +1,79 @@
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(2px, -6px);
+  }
+}
+
+@keyframes turn {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -120;
+  }
+}
+
+@keyframes route-dots {
+  to {
+    stroke-dashoffset: -28.4;
+  }
+}
+
+@keyframes miniujju-bob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes miniujju-shadow {
+  0%, 100% {
+    transform: scaleX(1);
+    opacity: .12;
+  }
+  50% {
+    transform: scaleX(.9);
+    opacity: .08;
+  }
+}
+
+@keyframes miniujju-blink {
+  0%, 43%, 47%, 100% {
+    transform: scaleY(1);
+  }
+  45% {
+    transform: scaleY(.1);
+  }
+}
+
+@keyframes miniujju-glow {
+  0%, 100% {
+    fill: #d9e58b;
+  }
+  50% {
+    fill: #a9bf68;
+  }
+}
+
+@keyframes miniujju-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25%, 75% {
+    transform: rotate(12deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+}
