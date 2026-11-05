@@ -1,6 +1,6 @@
 @media (min-width: 1500px) {
   .hero {
-    min-height: 690px;
+    min-height: 560px;
   }
 }
 
@@ -9,11 +9,11 @@
     width: calc(100% - 64px);
   }
   .hero {
-    min-height: 580px;
-    gap: 0;
+    min-height: 490px;
+    gap: 24px;
   }
   .hero h1 {
-    font-size: 59px;
+    font-size: clamp(45px, 5.7vw, 59px);
   }
   .hero .eyebrow {
     font-size: 9px;
@@ -32,7 +32,7 @@
     font-size: 10px;
   }
   .hero-art {
-    margin-left: -10px;
+    margin-left: 0;
   }
   .section {
     padding-block: 75px;
@@ -173,9 +173,10 @@
     margin-top: 27px;
   }
   .hero-art {
-    max-width: 400px;
-    width: 88%;
+    max-width: 280px;
+    width: 75%;
     margin: 8px auto 0;
+    justify-self: center;
   }
   .miniujju-greeting {
     font-size: 12px;
@@ -252,8 +253,33 @@
     font-size: 22px;
   }
   .project-grid {
-    grid-template-columns: 1fr;
+    display: contents;
+  }
+  #work {
+    grid-template-columns: minmax(0, 1fr);
     gap: 17px;
+  }
+  .featured-project {
+    grid-row: auto;
+  }
+  .impact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .impact-card {
+    padding: 22px 18px;
+  }
+  .impact-card > strong {
+    font-size: 44px;
+  }
+  .impact-card > span:not(.eyebrow) {
+    font-size: 12px;
+  }
+  .impact-current {
+    grid-column: 1 / -1;
+  }
+  .impact-current > strong {
+    font-size: 27px;
   }
   .project-grid .project-card {
     padding: 26px 24px;

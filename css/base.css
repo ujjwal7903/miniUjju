@@ -9,7 +9,7 @@
   --sage: #e9eddf;
   --peach: #f2dfd2;
   --white: #fffef9;
-  --radius: 18px;
+  --radius: 10px;
   --font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -75,15 +75,16 @@ h1, h2, h3, h4 {
 }
 
 h1, h2 {
-  letter-spacing: -.055em;
-  font-weight: 650;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -.045em;
+  font-weight: 400;
 }
 
 h2 {
   font-size: clamp(36px, 4.3vw, 53px);
 }
 
-h2 em {
+h1 em, h2 em {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
