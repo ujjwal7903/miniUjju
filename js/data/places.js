@@ -33,6 +33,21 @@ window.MiniU.places = [
     source: "https://dhanbad.nic.in/tourist-place/maithon-dam/"
   },
   {
+    id: "kolkata",
+    name: "Kolkata",
+    region: "India",
+    area: "West Bengal",
+    x: 65.8,
+    y: 48.8,
+    labelX: 102,
+    labelY: 48,
+    theme: "city",
+    context: "Visited in 2018.",
+    highlight: "History in white marble.",
+    description: "Kolkata's Victoria Memorial is a white-marble landmark housing a museum, art galleries, and a research library.",
+    source: "https://victoriamemorial-cal.org/home/"
+  },
+  {
     id: "hyderabad",
     name: "Hyderabad",
     region: "India",
@@ -346,5 +361,20 @@ window.MiniU.places = [
     highlight: "A village on the way to Yumthang.",
     description: "Lachung is a mountain village near Yumthang, with a monastery and a distinctive local self-governing tradition called the Dzumsa.",
     source: "https://mangan.nic.in/tourist-place/lachung/"
+  },
+  {
+    id: "mandarmani",
+    name: "Mandarmani",
+    region: "India",
+    area: "West Bengal",
+    x: 64,
+    y: 51,
+    labelX: 96,
+    labelY: 79,
+    theme: "beach",
+    context: "A coastal stop in 2026.",
+    highlight: "Red crabs, sandy shores.",
+    description: "Mandarmani is a seaside village in West Bengal's Purba Medinipur district, known for its long beach and red crabs along the Bay of Bengal.",
+    source: "https://wbtourism.gov.in/Coastal/details?id=638f91549e20437bfb0ce146&template_id=1"
   }
 ];
